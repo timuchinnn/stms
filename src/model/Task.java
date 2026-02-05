@@ -12,10 +12,10 @@ public class Task {
     this.descriptoin = descriptoin;
     this.status = status;
     }
-}
+
 
 @Override
 public String toString() {
-    return id + ". [" + status + "] " + title + ":" + description;
+    return id + ". [" + status + "] " + title + ":" + descriptoin;
    }
 }
